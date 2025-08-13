@@ -50,10 +50,10 @@ body {
 
 .sidebar-box {
   position: absolute;
-  left: 64px;       /* kolom 2 */
+  left: 32px;       /* kolom 2 */
   top: 405px;       /* baris 12 */
   width: 96px;      /* 3 kolom */
-  height: 607.5px;  /* 18 baris penuh sampai baris 29 */
+  height: 574px;  /* 18 baris penuh sampai baris 29 */
   background-color: #343957;
   border-radius: 25px;
 }
