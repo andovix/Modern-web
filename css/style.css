@@ -3,19 +3,30 @@ body {
   font-family: 'Open Sans', sans-serif;
   background-color: #161E32;
   color: #ffffff;
+  overflow-x: auto; /* Bisa geser kanan/kiri di HP */
 }
 
-/* Layout 1920x1080 */
+/* Layout 1920x1080 fixed */
 .grid-layout {
   position: relative;
   width: 1920px;
   height: 1080px;
   margin: auto;
   background-color: #161E32;
-  overflow: hidden;
 }
 
-/* Logo di posisi Canva: kolom 2–4, baris 4–10 */
+/* Kotak belakang logo (baris 4–10, kolom 2–4) */
+.logo-bg-box {
+  position: absolute;
+  left: 64px;        /* 2 kolom × 32px */
+  top: 135px;        /* 4 baris × 33.75px */
+  width: 96px;       /* 3 kolom × 32px */
+  height: 236.25px;  /* 7 baris × 33.75px */
+  background-color: #343957;
+  border-radius: 8px;
+}
+
+/* Logo di tengah kotak */
 .logo-box {
   position: absolute;
   left: 64px;
@@ -32,12 +43,13 @@ body {
   max-height: 100%;
 }
 
+/* Sidebar (contoh: kolom 2–4, baris 12–30) */
 .sidebar-box {
   position: absolute;
-  left: 64px; /* 2 × 32px */
-  top: 405px; /* 12 × 33.75px */
-  width: 96px; /* 3 kolom × 32px */
-  height: 607.5px; /* 18 baris × 33.75px */
+  left: 64px;       /* kolom 2 */
+  top: 405px;       /* baris 12 */
+  width: 96px;      /* 3 kolom */
+  height: 607.5px;  /* 18 baris */
   background-color: #343957;
   border-radius: 8px;
 }
