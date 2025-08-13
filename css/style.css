@@ -48,13 +48,12 @@ body {
   max-height: 100%;
 }
 
-/* Sidebar (contoh: kolom 2–4, baris 12–30) */
 .sidebar-box {
   position: absolute;
   left: 64px;       /* kolom 2 */
   top: 405px;       /* baris 12 */
   width: 96px;      /* 3 kolom */
-  height: 573.75pxpx;  /* 18 baris */
+  height: 607.5px;  /* 18 baris penuh sampai baris 29 */
   background-color: #343957;
-  border-radius: 8px;
+  border-radius: 25px;
 }
