@@ -13,6 +13,11 @@ body {
   height: 1080px;
   margin: auto;
   background-color: #161E32;
+  /* Tambah grid background */
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 32px 33.75px; /* 60 kolom × 32 baris */
 }
 
 /* Kotak belakang logo (baris 4–10, kolom 2–4) */
