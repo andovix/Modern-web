@@ -28,7 +28,7 @@ body {
   width: 96px;       /* 3 kolom × 32px */
   height: 236.25px;  /* 7 baris × 33.75px */
   background-color: #343957;
-  border-radius: 8px;
+  border-radius: 25px;
 }
 
 /* Logo di tengah kotak */
