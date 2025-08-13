@@ -57,3 +57,21 @@ body {
   top: 135px;
   width: 100px; /* Sesuaikan jika ada ukuran pasti */
 }
+
+.logo-box {
+  position: absolute;
+  left: 64px;
+  top: 135px;
+  width: 96px;
+  height: 236.25px;
+  background-color: #343957;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.logo-box img {
+  max-width: 80%;
+  max-height: 80%;
+}
