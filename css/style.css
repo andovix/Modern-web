@@ -23,7 +23,7 @@ body {
 /* Kotak belakang logo (baris 4–10, kolom 2–4) */
 .logo-bg-box {
   position: absolute;
-  left: 64px;        /* 2 kolom × 32px */
+  left: 32px;        /* 2 kolom × 32px */
   top: 135px;        /* 4 baris × 33.75px */
   width: 96px;       /* 3 kolom × 32px */
   height: 236.25px;  /* 7 baris × 33.75px */
@@ -34,7 +34,7 @@ body {
 /* Logo di tengah kotak */
 .logo-box {
   position: absolute;
-  left: 64px;
+  left: 32px;
   top: 135px;
   width: 96px;
   height: 236.25px;
