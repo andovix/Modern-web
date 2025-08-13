@@ -5,6 +5,15 @@ body {
   color: #ffffff;
 }
 
+.grid-layout {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  margin: auto;
+  background-color: #161E32;
+  overflow: hidden;
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
