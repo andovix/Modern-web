@@ -112,3 +112,24 @@ body {
   background-color: #343957;
   border-radius: 25px;
 }
+
+.diagram-analysis {
+  position: absolute;
+  left: 1216px;
+  top: 135px;
+  width: 288px;
+  height: 371.25px;
+  background-color: #343957;
+  border-radius: 25px;
+}
+
+.absenteeism-box {
+  position: absolute;
+  left: 1216px;
+  top: 607.5px;
+  width: 288px;
+  height: 371.25px;
+  background-color: #343957;
+  border-radius: 25px;
+}
+
