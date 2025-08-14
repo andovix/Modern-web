@@ -94,10 +94,10 @@ body {
 /* Kotak income detail: kolom 6–34, baris 12–19 */
 .income-detail {
   position: absolute;
-  left: calc(32px * 6);
-  top: calc(33.75px * 12);
-  width: calc(32px * (34 - 6 + 1));
-  height: calc(33.75px * (19 - 12 + 1));
+  left: 192px;
+  top: 405px;
+  width: 896px;
+  height: 236.25px;
   background-color: #343957;
   border-radius: 25px;
 }
@@ -105,10 +105,10 @@ body {
 /* Kotak expense detail: kolom 6–34, baris 21–29 */
 .expense-detail {
   position: absolute;
-  left: calc(32px * 6);
-  top: calc(33.75px * 21);
-  width: calc(32px * (34 - 6 + 1));
-  height: calc(33.75px * (29 - 21 + 1));
+  left: 192px;
+  top: 708.75px;
+  width: 896px;
+  height: 270px;
   background-color: #343957;
   border-radius: 25px;
 }
