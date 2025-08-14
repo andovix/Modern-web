@@ -90,3 +90,25 @@ body {
   background-color: #343957;
   border-radius: 25px;
 }
+
+/* Kotak income detail: kolom 6–34, baris 12–19 */
+.income-detail {
+  position: absolute;
+  left: calc(32px * 6);
+  top: calc(33.75px * 12);
+  width: calc(32px * (34 - 6 + 1));
+  height: calc(33.75px * (19 - 12 + 1));
+  background-color: #343957;
+  border-radius: 25px;
+}
+
+/* Kotak expense detail: kolom 6–34, baris 21–29 */
+.expense-detail {
+  position: absolute;
+  left: calc(32px * 6);
+  top: calc(33.75px * 21);
+  width: calc(32px * (34 - 6 + 1));
+  height: calc(33.75px * (29 - 21 + 1));
+  background-color: #343957;
+  border-radius: 25px;
+}
