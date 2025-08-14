@@ -24,7 +24,7 @@ body {
 .logo-bg-box {
   position: absolute;
   left: 32px;        /* 2 kolom × 32px */
-  top: 135px;        /* 4 baris × 33.75px */
+  top: 101.25px;        /* 4 baris × 33.75px */
   width: 96px;       /* 3 kolom × 32px */
   height: 236.25px;  /* 7 baris × 33.75px */
   background-color: #343957;
