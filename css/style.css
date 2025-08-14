@@ -51,7 +51,7 @@ body {
 .sidebar-box {
   position: absolute;
   left: 32px;       /* kolom 2 */
-  top: 405px;       /* baris 12 */
+  top: 371.25px;       /* baris 12 */
   width: 96px;      /* 3 kolom */
   height: 574px;  /* 18 baris penuh sampai baris 29 */
   background-color: #343957;
