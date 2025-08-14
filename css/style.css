@@ -57,3 +57,36 @@ body {
   background-color: #343957;
   border-radius: 25px;
 }
+
+/* Kotak INCOME */
+.box-income {
+  position: absolute;
+  left: 160px;
+  top: 168.75px;
+  width: 288px;
+  height: 135px;
+  background-color: #343957;
+  border-radius: 25px;
+}
+
+/* Kotak EXPENSE */
+.box-expense {
+  position: absolute;
+  left: 480px;
+  top: 168.75px;
+  width: 288px;
+  height: 135px;
+  background-color: #343957;
+  border-radius: 25px;
+}
+
+/* Kotak PROFIT */
+.box-profit {
+  position: absolute;
+  left: 800px;
+  top: 168.75px;
+  width: 288px;
+  height: 135px;
+  background-color: #343957;
+  border-radius: 25px;
+}
