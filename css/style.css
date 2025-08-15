@@ -133,27 +133,19 @@ body {
   border-radius: 25px;
 }
 
-.sidebar {
-    display: grid;
-    grid-template-rows: repeat(24, 1fr); /* 24 baris */
-    background: #333;
-    width: 80px;
-    height: 100vh;
-}
-
-.sidebar img {
-    width: 40px;
+.sidebar .icon {
+    width: 40px;      /* ubah angka ini untuk memperbesar/mengecilkan icon */
+    height: auto;
     margin: auto;
 }
 
+/* posisi icon di grid */
 .finance {
     grid-row: 18;
 }
-
 .management {
     grid-row: 20;
 }
-
 .distribution {
     grid-row: 22;
 }
