@@ -115,9 +115,9 @@ body {
 
 .diagram-analysis {
   position: absolute;
-  left: 1216px;
-  top: 135px;
-  width: 288px;
+  left: 1182.25px;
+  top: 101.25;
+  width: 608px;
   height: 371.25px;
   background-color: #343957;
   border-radius: 25px;
@@ -125,9 +125,9 @@ body {
 
 .absenteeism-box {
   position: absolute;
-  left: 1216px;
-  top: 607.5px;
-  width: 288px;
+  left: 1182.25px;
+  top: 575.5px;
+  width: 608px;
   height: 371.25px;
   background-color: #343957;
   border-radius: 25px;
