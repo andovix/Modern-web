@@ -10,6 +10,8 @@ body {
 .grid-layout {
   position: relative;
   display: grid;
+  grid-template-columns: repeat(60, 1fr); /* 60 kolom */
+  grid-template-rows: repeat(32, 1fr);   /* 32 baris */
   width: 1920px;
   height: 1080px;
   margin: auto;
