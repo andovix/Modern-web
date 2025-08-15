@@ -53,7 +53,7 @@ body {
   left: 32px;       /* kolom 2 */
   top: 371.25px;       /* baris 12 */
   width: 96px;      /* 3 kolom */
-  height: 574px;  /* 18 baris penuh sampai baris 29 */
+  height: 607.75px;  /* 18 baris penuh sampai baris 29 */
   background-color: #343957;
   border-radius: 25px;
 }
@@ -108,7 +108,7 @@ body {
   left: 160px;
   top: 675px;
   width: 928px;
-  height: 270px;
+  height: 303.75px;
   background-color: #343957;
   border-radius: 25px;
 }
@@ -128,7 +128,7 @@ body {
   left: 1182.25px;
   top: 573.75px;
   width: 608px;
-  height: 371.25px;
+  height: 405px;
   background-color: #343957;
   border-radius: 25px;
 }
