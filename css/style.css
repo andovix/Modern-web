@@ -9,6 +9,7 @@ body {
 /* Layout 1920x1080 fixed */
 .grid-layout {
   position: relative;
+  display: grid;
   width: 1920px;
   height: 1080px;
   margin: auto;
@@ -135,18 +136,22 @@ body {
 
 .sidebar .icon {
     width: 40px;      /* ubah angka ini untuk memperbesar/mengecilkan icon */
-    height: auto;
-    margin: auto;
+    height: center;
+    margin: center;
 }
 
-/* posisi icon di grid */
 .finance {
-    grid-row: 18;
+  grid-column: 3; /* kolom ke-3 */
+  grid-row: 18;   /* baris ke-18 */
 }
+
 .management {
-    grid-row: 20;
+  grid-column: 3;
+  grid-row: 20;
 }
+
 .distribution {
-    grid-row: 22;
+  grid-column: 3;
+  grid-row: 22;
 }
 
