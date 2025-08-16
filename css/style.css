@@ -88,6 +88,7 @@ body {
 
 /* Kotak INCOME */
 .box-income {
+ border: 2px dashed red;
   position: absolute;
   left: 160px;
   top: 168.75px;
