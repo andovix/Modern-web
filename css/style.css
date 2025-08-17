@@ -89,7 +89,6 @@ body {
   height: 135px;
   border-radius: 25px;
   background-color: #ff9800 !important; /* orange terang */
-  border: 3px solid yellow !important;
   z-index: 10;
 }
 
