@@ -87,8 +87,10 @@ body {
   top: 168.75px;
   width: 288px;
   height: 135px;
-  background-color: #343957;
   border-radius: 25px;
+  background-color: #ff9800 !important; /* orange terang */
+  border: 3px solid yellow !important;
+  z-index: 10;
 }
 
 /* Kotak EXPENSE */
