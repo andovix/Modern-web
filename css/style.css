@@ -65,7 +65,7 @@ body {
   flex-direction: column;    /* icon susun vertikal */
   align-items: center;       /* center horizontal */
   justify-content: center;   /* center vertical */
-  gap: 40px;                 /* jarak antar 
+  gap: 40px;                 /* jarak antar  */
   }
 
   
@@ -73,7 +73,7 @@ body {
 .sidebar-box .finance { /* Icon Finance */ }
 .sidebar-box .management { /* Icon Management */ }
 .sidebar-box .distribution { /* Icon Distribution */ }
-}
+
 
 /* Kotak INCOME */
 .box-income {
@@ -82,9 +82,9 @@ body {
   top: 168.75px;
   width: 288px;
   height: 135px;
+  background-color: #343957;
   border-radius: 25px;
-  background-color: #ff9800 !important; /* orange terang */
-  z-index: 10;
+  
 }
 
 /* Kotak EXPENSE */
