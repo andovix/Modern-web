@@ -65,15 +65,10 @@ body {
   flex-direction: column;    /* icon susun vertikal */
   align-items: center;       /* center horizontal */
   justify-content: center;   /* center vertical */
-  gap: 40px;                 /* jarak antar icon */
-}
+  gap: 40px;                 /* jarak antar 
+  }
 
-/* ======================= Sidebar Icons ======================= */
-.sidebar-box .icon {
-  width: 40px;
-  height: 40px;
-}
-
+  
 /* Icon spesifik (optional styling berbeda) */
 .sidebar-box .finance { /* Icon Finance */ }
 .sidebar-box .management { /* Icon Management */ }
