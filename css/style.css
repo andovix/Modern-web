@@ -68,6 +68,19 @@ body {
   gap: 40px;                 /* jarak antar  */
   }
 
+.sidebar-box::after {
+  content: "";
+  position: absolute;
+  bottom: -25px; /* geser ke bawah keluar dari sidebar */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: #161E32; /* warna background utama */
+  border-radius: 50%;
+  z-index: 0;
+}
+
   
 /* Icon spesifik (optional styling berbeda) */
 .sidebar-box .finance { /* Icon Finance */ }
