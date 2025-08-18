@@ -59,6 +59,7 @@ body {
   height: 607.75px;  /* 18 baris penuh sampai baris 29 */
   background-color: #343957;
   border-radius: 25px;
+  z-index: 1;
 
   /* Flexbox untuk icon */
   display: flex;
@@ -69,28 +70,6 @@ body {
   }
 
 
-/* Sidebar container */
-.sidebar-box {
-  width: 80px;
-  background: #343957; /* warna sidebar */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px 0;
-  position: relative;
-}
-
-/* Icon umum */
-.sidebar-icon {
-  position: relative;
-  margin: 30px 0;
-  width: 48px;
-  height: 48px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /* Icon aktif */
 .sidebar-icon.active::before {
   content: "";
@@ -98,36 +77,25 @@ body {
   width: 70px;
   height: 70px;
   background: #161E32;   /* warna halaman utama */
-  border-radius: 50%;    /* bulat penuh */
+  border-radius: 50%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 0;
 }
 
-/* Lengkungan ke luar di kanan sidebar */
 .sidebar-icon.active::after {
   content: "";
   position: absolute;
-  right: -20px;   /* keluar dari sidebar */
+  right: -20px;   /* keluar ke kanan sidebar */
   top: 50%;
   transform: translateY(-50%);
   width: 40px;
-  height: 80px;
-  background: #343957;   /* sama dengan sidebar */
-  border-radius: 0 40px 40px 0;  /* melengkung ke luar */
+  height: 70px;   /* sama dengan bulatan */
+  background: #343957;   /* warna sidebar */
+  border-radius: 0 35px 35px 0;  /* lengkung keluar */
   z-index: -1;
 }
-
-/* Icon img */
-.sidebar-icon img {
-  position: relative;
-  width: 24px;
-  height: 24px;
-  z-index: 1;
-}
-
-
 
 
 
