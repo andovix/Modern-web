@@ -68,18 +68,28 @@ body {
   gap: 40px;                 /* jarak antar  */
   }
 
-.sidebar-box::after {
+
+.sidebar-icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s ease;
+}
+
+.sidebar-icon.active::after {
   content: "";
   position: absolute;
-  bottom: -25px; /* geser ke bawah keluar dari sidebar */
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 50px;
-  height: 50px;
-  background-color: #161E32; /* warna background utama */
-  border-radius: 50%;
-  z-index: 0;
+  width: 30px;
+  height: 12px;
+  background-color: #161E32;
+  border-radius: 0 0 12px 12px;
+  z-index: 1;
 }
+
+
 
   
 /* Icon spesifik (optional styling berbeda) */
