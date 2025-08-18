@@ -95,6 +95,19 @@ body {
   height: 55px;
 }
 
+/* === Page Title === */
+.page-title {
+  position: absolute;
+  left: 192px;       /* kolom ke-6 */
+  top: 135px;        /* baris ke-4 */
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 1px;
+  z-index: 10;
+}
+
+
 /* Kotak INCOME */
 .box-income {
   position: absolute;
