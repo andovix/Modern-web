@@ -52,7 +52,7 @@ body {
 }
 
 .sidebar-box {
-  position: absolute;
+  position: relative;
   left: 32px;       /* kolom 2 */
   top: 371.25px;       /* baris 12 */
   width: 96px;      /* 3 kolom */
