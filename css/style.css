@@ -69,7 +69,7 @@ body {
   gap: 40px;                 /* jarak antar  */
   }
 
-.menu {
+.sidebar-icon {
   width: 60px;
   height: 60px;
   display: flex;
@@ -78,14 +78,16 @@ body {
   position: relative;
 }
 
-.menu.active::after {
+.sidrbar-icon.active::after {
   content: "";
   position: absolute;
   right: -30px;
+  top: 0;
   width: 60px;
   height: 60px;
   background: #161E32;
   border-radius: 50%;
+  z-index: -1;
 }
 
 
