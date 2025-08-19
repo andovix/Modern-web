@@ -69,25 +69,40 @@ body {
   gap: 40px;                 /* jarak antar  */
   }
 
+/* Semua tombol sidebar */
 .sidebar-icon {
   width: 60px;
   height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 15px 0;
   position: relative;
 }
 
+/* Icon di dalam */
+.sidebar-icon img {
+  width: 28px;
+  height: 28px;
+  z-index: 2; /* biar tetap di atas */
+}
+
+/* Reset: jangan kasih background di active */
+.sidebar-icon.active {
+  background: none;
+}
+
+/* Tambahin bulatan aktif */
 .sidebar-icon.active::after {
   content: "";
   position: absolute;
-  right: -30px;
+  right: -30px;   /* setengah lingkaran keluar */
   top: 0;
   width: 60px;
   height: 60px;
   background: #161E32;
   border-radius: 50%;
-  z-index: -1;
+  z-index: 1;
 }
 
 
