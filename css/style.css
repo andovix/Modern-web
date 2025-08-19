@@ -78,7 +78,7 @@ body {
   position: relative;
 }
 
-.sidrbar-icon.active::after {
+.sidebar-icon.active::after {
   content: "";
   position: absolute;
   right: -30px;
