@@ -69,33 +69,25 @@ body {
   gap: 40px;                 /* jarak antar  */
   }
 
+.menu {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
 
-/* Icon aktif */
-.sidebar-icon.active::before {
+.menu.active::after {
   content: "";
   position: absolute;
-  width: 70px;
-  height: 70px;
-  background: #161E32;   /* warna halaman utama */
+  right: -30px;
+  width: 60px;
+  height: 60px;
+  background: #1c2235;
   border-radius: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 0;
 }
 
-.sidebar-icon.active::after {
-  content: "";
-  position: absolute;
-  right: -20px;   /* keluar ke kanan sidebar */
-  top: 50%;
-  transform: translateY(-50%);
-  width: 40px;
-  height: 70px;   /* sama dengan bulatan */
-  background: #343957;   /* warna sidebar */
-  border-radius: 0 35px 35px 0;  /* lengkung keluar */
-  z-index: -1;
-}
 
 
 
