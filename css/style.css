@@ -96,12 +96,12 @@ body {
 .sidebar-icon.active::after {
   content: "";
   position: absolute;
-  right: -30px;   /* setengah lingkaran keluar */
+  right: -50px;   /* setengah lingkaran keluar */
   top: 0;
   width: 60px;
   height: 60px;
   background: #161E32;
-  border-radius: 50%;
+  border-radius: 20%;
   z-index: 1;
 }
 
