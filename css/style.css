@@ -96,7 +96,7 @@ body {
 .sidebar-icon.active::after {
   content: "";
   position: absolute;
-  right: -50px;   /* setengah lingkaran keluar */
+  right: -70px;   /* setengah lingkaran keluar */
   top: 0;
   width: 60px;
   height: 60px;
