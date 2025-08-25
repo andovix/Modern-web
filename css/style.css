@@ -79,12 +79,12 @@ body {
 .sidebar-icon.active::after {
   content: "";
   position: absolute;
-  right: -20px; /* PNG nempel ke kanan sidebar */
-  top: 0;
+  right: -10px; /* PNG nempel ke kanan sidebar */
+  top: -10px;
   width: 100px;
   height: 100px;
   background-image: url('../images/IMG_5442.png');
-  background-size: 120%;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   z-index: 1; /* PNG di bawah ikon */
