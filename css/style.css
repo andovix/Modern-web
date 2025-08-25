@@ -50,12 +50,23 @@ body {
   grid-row: 12 / 30;   /* baris 12–29 */
   background-color: #343957;
   border-radius: 25px;
+  display: grid;
+  
+}
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
+.sidebar-icon.income {
+  grid-column: 3 / 4;
+  grid-row: 19 / 20;
+}
+
+.sidebar-icon.management {
+  grid-column: 3 / 4;
+  grid-row: 21 / 22;
+}
+
+.sidebar-icon.distribution {
+  grid-column: 3 / 4;
+  grid-row: 23 / 24;
 }
 
 .sidebar-icon {
@@ -79,8 +90,8 @@ body {
 .sidebar-icon.active::after {
   content: "";
   position: absolute;
-  right: -10px; /* PNG nempel ke kanan sidebar */
-  top: -10px;
+  top: -10px; /* PNG nempel ke kanan sidebar */
+  left: 100%;
   width: 100px;
   height: 100px;
   background-image: url('../images/IMG_5442.png');
