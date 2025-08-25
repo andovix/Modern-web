@@ -51,7 +51,9 @@ body {
   background-color: #343957;
   border-radius: 25px;
   display: grid;
- 
+ grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(18, 1fr); /* sesuai jumlah baris ikon */
+
   
 }
 
