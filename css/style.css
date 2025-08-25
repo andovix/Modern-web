@@ -77,6 +77,7 @@ body {
   content: "";
   position: absolute;
   right: -15px;
+  transform: translateY(-50%);
   top: 0;
   width: 30px;
   height: 60px;
@@ -96,8 +97,8 @@ body {
 
 /* Kotak INCOME */
 .box-income {
-  grid-column: 6 / 12;
-  grid-row: 6 / 8;
+  grid-column: 6 / 14;
+  grid-row: 6 / 9;
   background-color: #343957;
   border-radius: 25px;
   position: relative;
@@ -105,8 +106,8 @@ body {
 
 /* Kotak EXPENSE */
 .box-expense {
-  grid-column: 13 / 19;
-  grid-row: 6 / 8;
+  grid-column: 16 / 24;
+  grid-row: 6 / 9;
   background-color: #343957;
   border-radius: 25px;
   position: relative;
@@ -114,8 +115,8 @@ body {
 
 /* Kotak PROFIT */
 .box-profit {
-  grid-column: 20 / 26;
-  grid-row: 6 / 8;
+  grid-column: 26 / 34;
+  grid-row: 6 / 9;
   background-color: #343957;
   border-radius: 25px;
   position: relative;
