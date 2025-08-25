@@ -232,7 +232,7 @@ body {
 .expense-detail,
 .diagram-analysis,
 .absenteeism-box {
-  position: relative;
+  position: absolute;
 }
 
 /* Style judul */
