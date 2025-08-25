@@ -100,6 +100,7 @@ body {
   grid-row: 6 / 8;
   background-color: #343957;
   border-radius: 25px;
+  position: relative;
 }
 
 /* Kotak EXPENSE */
@@ -108,6 +109,7 @@ body {
   grid-row: 6 / 8;
   background-color: #343957;
   border-radius: 25px;
+  position: relative;
 }
 
 /* Kotak PROFIT */
@@ -116,6 +118,7 @@ body {
   grid-row: 6 / 8;
   background-color: #343957;
   border-radius: 25px;
+  position: relative;
 }
 
 /* Kotak income detail */
@@ -124,6 +127,7 @@ body {
   grid-row: 12 / 20;
   background-color: #343957;
   border-radius: 25px;
+  position: relative;
 }
 
 /* Kotak expense detail */
@@ -132,6 +136,7 @@ body {
   grid-row: 21 / 30;
   background-color: #343957;
   border-radius: 25px;
+  position: relative;
 }
 
 /* Diagram Analysis */
@@ -140,6 +145,7 @@ body {
   grid-row: 4 / 17;
   background-color: #343957;
   border-radius: 25px;
+  position: relative;
 }
 
 /* Absenteeism */
@@ -148,6 +154,7 @@ body {
   grid-row: 18 / 30;
   background-color: #343957;
   border-radius: 25px;
+  position: relative;
 }
 
 /* Style judul tiap box */
