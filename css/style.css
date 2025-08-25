@@ -58,19 +58,20 @@ grid-template-rows: repeat(18, 1fr); /* sesuai jumlah baris ikon */
 }
 
 .sidebar-icon.income {
-  grid-column: 3 / 4;
-  grid-row: 19 / 20;
+  grid-column: 3;
+  grid-row: 7;
 }
 
 .sidebar-icon.management {
-  grid-column: 3 / 4;
-  grid-row: 21 / 22;
+  grid-column: 3;
+  grid-row: 9;
 }
 
 .sidebar-icon.distribution {
-  grid-column: 3 / 4;
-  grid-row: 23 / 24;
+  grid-column: 3;
+  grid-row: 11;
 }
+
 
 .sidebar-icon {
   width: 32px;
