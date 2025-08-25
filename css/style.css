@@ -58,7 +58,7 @@ grid-template-rows: repeat(18, 1fr); /* sesuai jumlah baris ikon */
 }
 
 .sidebar-icon.income {
-  grid-column: 2;
+  grid-column: 3;
   grid-row: 7;
 }
 
