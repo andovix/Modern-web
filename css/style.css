@@ -79,7 +79,7 @@ body {
 .sidebar-icon.active::after {
   content: "";
   position: absolute;
-  right: -10px; /* PNG nempel ke kanan sidebar */
+  right: -20px; /* PNG nempel ke kanan sidebar */
   top: 0;
   width: 100px;
   height: 100px;
