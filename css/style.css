@@ -8,7 +8,6 @@ body {
 
 /* Layout 1920x1080 fixed */
 .grid-layout {
-  position: relative;
   display: grid;
   grid-template-columns: repeat(60, 1fr); /* 60 kolom */
   grid-template-rows: repeat(32, 1fr);   /* 32 baris */
@@ -16,6 +15,7 @@ body {
   height: 1080px;
   margin: auto;
   background-color: #161E32;
+
   /* Tambah grid background */
   background-image:
     linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
@@ -23,24 +23,17 @@ body {
   background-size: 32px 33.75px; /* 60 kolom × 32 baris */
 }
 
-/* Kotak belakang logo (baris 4–10, kolom 2–4) */
+/* === Logo box === */
 .logo-bg-box {
-  position: absolute;
-  left: 32px;        /* 2 kolom × 32px */
-  top: 101.25px;        /* 4 baris × 33.75px */
-  width: 96px;       /* 3 kolom × 32px */
-  height: 236.25px;  /* 7 baris × 33.75px */
+  grid-column: 2 / 5;   /* kolom 2–4 */
+  grid-row: 4 / 11;     /* baris 4–10 */
   background-color: #343957;
   border-radius: 25px;
 }
 
-/* Logo di tengah kotak */
 .logo-box {
-  position: absolute;
-  left: 32px;
-  top: 135px;
-  width: 96px;
-  height: 202.5px;
+  grid-column: 2 / 5;
+  grid-row: 4 / 11;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,25 +44,20 @@ body {
   max-height: 100%;
 }
 
+/* Sidebar */
 .sidebar-box {
-  position: relative;
-  left: 32px;       /* kolom 2 */
-  top: 371.25px;       /* baris 12 */
-  width: 96px;      /* 3 kolom */
-  height: 607.75px;  /* 18 baris penuh sampai baris 29 */
+  grid-column: 2 / 5;  /* kolom 2–4 */
+  grid-row: 12 / 30;   /* baris 12–29 */
   background-color: #343957;
   border-radius: 25px;
-  z-index: 1;
 
-  /* Flexbox untuk icon */
   display: flex;
-  flex-direction: column;    /* icon susun vertikal */
-  align-items: center;       /* center horizontal */
-  justify-content: center;   /* center vertical */
-  gap: 40px;                 /* jarak antar  */
-  }
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
 
-/* Semua tombol sidebar */
 .sidebar-icon {
   width: 60px;
   height: 60px;
@@ -80,162 +68,89 @@ body {
   position: relative;
 }
 
-/* Icon di dalam */
 .sidebar-icon img {
   width: 28px;
   height: 28px;
-  z-index: 2; /* biar tetap di atas */
 }
 
-/* Reset: jangan kasih background di active */
-.sidebar-icon.active {
-  background: none;
-}
-
-/* Tambahin bulatan aktif */
 .sidebar-icon.active::after {
   content: "";
   position: absolute;
-  right: -50px;   /* setengah lingkaran keluar */
+  right: -15px;
   top: 0;
   width: 30px;
   height: 60px;
   background: #161E32;
   border-radius: 20%;
-  z-index: 1;
-}
-
-
-
-
-  
-/* Icon spesifik (optional styling berbeda) */
-.sidebar-box .finance { /* Icon Finance */ }
-.sidebar-box .management { /* Icon Management */ }
-.sidebar-box .distribution { /* Icon Distribution */ }
-
-
-.sidebar-box img {
-  background: transparent; /* pastikan tidak ada warna */
-}
-
-/* Icon spesifik (optional styling berbeda) */
-.sidebar-box .finance {
-  width: 40px;
-  height: 40px;
-}
-
-.sidebar-box .management {
-  width: 40px;
-  height: 40px;
-}
-
-.sidebar-box .distribution {
-  width: 55px;
-  height: 55px;
 }
 
 /* === Page Title === */
 .page-title {
-  position: absolute;
-  left: 160px;       /* kolom ke-6 */
-  top: 101.25px;        /* baris ke-4 */
+  grid-column: 6 / 15;   /* geser ke kanan */
+  grid-row: 4 / 5;       /* baris 4 */
   font-size: 32px;
   font-weight: bold;
   color: #ffffff;
   letter-spacing: 1px;
-  z-index: 10;
 }
-
 
 /* Kotak INCOME */
 .box-income {
-  position: absolute;
-  left: 160px;
-  top: 168.75px;
-  width: 288px;
-  height: 135px;
+  grid-column: 6 / 12;
+  grid-row: 6 / 8;
   background-color: #343957;
   border-radius: 25px;
-  
 }
 
 /* Kotak EXPENSE */
 .box-expense {
-  position: absolute;
-  left: 480px;
-  top: 168.75px;
-  width: 288px;
-  height: 135px;
+  grid-column: 13 / 19;
+  grid-row: 6 / 8;
   background-color: #343957;
   border-radius: 25px;
 }
 
 /* Kotak PROFIT */
 .box-profit {
-  position: absolute;
-  left: 800px;
-  top: 168.75px;
-  width: 288px;
-  height: 135px;
+  grid-column: 20 / 26;
+  grid-row: 6 / 8;
   background-color: #343957;
   border-radius: 25px;
 }
 
-/* Kotak income detail: kolom 6–34, baris 12–19 */
+/* Kotak income detail */
 .income-detail {
-  position: absolute;
-  left: 160px;
-  top: 371.25px;
-  width: 928px;
-  height: 270px;
+  grid-column: 6 / 35;
+  grid-row: 12 / 20;
   background-color: #343957;
   border-radius: 25px;
 }
 
-/* Kotak expense detail: kolom 6–34, baris 21–29 */
+/* Kotak expense detail */
 .expense-detail {
-  position: absolute;
-  left: 160px;
-  top: 675px;
-  width: 928px;
-  height: 303.75px;
+  grid-column: 6 / 35;
+  grid-row: 21 / 30;
   background-color: #343957;
   border-radius: 25px;
 }
 
+/* Diagram Analysis */
 .diagram-analysis {
-  position: absolute;
-  left: 1182.25px;
-  top: 101.25px;
-  width: 608px;
-  height: 405px;
+  grid-column: 38 / 60;
+  grid-row: 4 / 17;
   background-color: #343957;
   border-radius: 25px;
 }
 
+/* Absenteeism */
 .absenteeism-box {
-  position: absolute;
-  left: 1182.25px;
-  top: 573.75px;
-  width: 608px;
-  height: 405px;
+  grid-column: 38 / 60;
+  grid-row: 18 / 30;
   background-color: #343957;
   border-radius: 25px;
 }
 
-/* Supaya setiap box bisa jadi parent untuk judul */
-.box-income, 
-.box-expense, 
-.box-profit,
-.income-detail,
-.expense-detail,
-.diagram-analysis,
-.absenteeism-box {
-  position: absolute;
-}
-
-/* Style judul */
+/* Style judul tiap box */
 .box-title {
   position: absolute;
   top: 10px;
@@ -244,4 +159,3 @@ body {
   font-weight: bold;
   color: #ffffff;
 }
-
