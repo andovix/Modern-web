@@ -223,3 +223,25 @@ body {
   background-color: #343957;
   border-radius: 25px;
 }
+
+/* Supaya setiap box bisa jadi parent untuk judul */
+.box-income, 
+.box-expense, 
+.box-profit,
+.income-detail,
+.expense-detail,
+.diagram-analysis,
+.absenteeism-box {
+  position: relative;
+}
+
+/* Style judul */
+.box-title {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
