@@ -76,7 +76,7 @@ body {
 .sidebar-icon.active::after {
   content: "";
   position: absolute;
-  right: -50px;
+  right: -20px;
   top: 0;
   width: 30px;
   height: 60px;
