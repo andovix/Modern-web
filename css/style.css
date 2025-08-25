@@ -66,23 +66,30 @@ body {
   justify-content: center;
   margin: 15px 0;
   position: relative;
+  z-index: 2; /* pastikan ikon di atas PNG */
 }
 
 .sidebar-icon img {
   width: 28px;
   height: 28px;
+  position: relative;
+  z-index: 2;
 }
 
 .sidebar-icon.active::after {
   content: "";
   position: absolute;
-  right: -15px;
+  right: -20px; /* PNG nempel ke kanan sidebar */
   top: 0;
-  width: 30px;
+  width: 50px;
   height: 50px;
-  background: #161E32;
-  border-radius: 20%;
+  background-image: url('../images/IMG_5442.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1; /* PNG di bawah ikon */
 }
+
 
 /* === Page Title === */
 .page-title {
