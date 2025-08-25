@@ -91,19 +91,7 @@ grid-template-rows: repeat(18, 1fr); /* sesuai jumlah baris ikon */
   z-index: 2;
 }
 
-.sidebar-icon.active::after {
-  content: "";
-  position: absolute;
-  top: -10px; /* PNG nempel ke kanan sidebar */
-  left: 100%;
-  width: 100px;
-  height: 100px;
-  background-image: url('../images/IMG_5442.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  z-index: 1; /* PNG di bawah ikon */
-}
+
 
 
 /* === Page Title === */
